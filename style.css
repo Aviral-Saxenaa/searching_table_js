@@ -1,0 +1,42 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+body{
+        background-color: black;
+        color: white;
+}
+h1{
+        text-align: center;
+        color: green;
+}
+table{
+        
+        padding: 10; border: 2px solid black; width: 70%; height: 40vh;
+        margin: auto;
+        margin-top: 10vh;
+        text-align: center;
+}
+#search{
+        width: 70%;
+        border: 2px solid blueviolet;
+        padding: 8px;
+        margin-left: 240px;
+        margin-top: 20px;
+}
+td{
+        transition: background-color .5s,color .5s;
+}
+td:hover{
+        background-color: azure;
+        color: black;
+}
+th{
+        transition: background-color .5s,color .5s;
+        cursor: pointer;
+}
+th:hover{
+        background-color: yellow;
+        color: green;
+}
